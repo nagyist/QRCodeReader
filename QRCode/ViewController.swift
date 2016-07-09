@@ -41,7 +41,7 @@ class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
         qrResultLabel.snp_makeConstraints { make in
             make.centerX.centerY.equalTo(button.superview!)
             make.width.equalTo(300)
-            make.height.equalTo(100)
+            make.height.equalTo(300)
         }
     }
     
