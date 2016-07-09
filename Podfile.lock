@@ -1,0 +1,15 @@
+PODS:
+  - QRCodeReader.swift (6.0.0)
+  - SnapKit (0.20.0)
+
+DEPENDENCIES:
+  - QRCodeReader.swift (~> 6.0)
+  - SnapKit
+
+SPEC CHECKSUMS:
+  QRCodeReader.swift: 4aa8b0f88847a51312d6ffd2cafc387962da9dd8
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
+
+PODFILE CHECKSUM: 6b034379d7688143d83b54c4d9e6459e0d5d50c7
+
+COCOAPODS: 1.0.0
