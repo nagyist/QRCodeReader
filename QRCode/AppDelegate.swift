@@ -21,26 +21,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 }
 
-extension NSDateFormatter {
-    convenience init(dateFormat: String) {
-        self.init()
-        self.dateFormat = dateFormat
-    }
-}
-
-extension String {
-    func matches(regex: String) -> [String] {
-        let regex = try! NSRegularExpression(pattern: regex, options: [])
-        let nsString = self as NSString
-        let results = regex.matchesInString(self, options: [], range: NSMakeRange(0, nsString.length))
-        return results.map { nsString.substringWithRange($0.range)}
-    }
-    func firstMatch(regex: String) -> String? {
-        return self.matches(regex).first
-    }
-    func isMatching(regex:String) -> Bool {
-        return self.matches(regex).count == 1
-    }
-}
 
 

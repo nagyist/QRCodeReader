@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E1D536D1D30CE3C0064E81B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1D536C1D30CE3C0064E81B /* AVFoundation.framework */; };
+		2E1D53701D30DA910064E81B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D536F1D30DA910064E81B /* Extensions.swift */; };
 		2E73FA581D30CB6F00339234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E73FA571D30CB6F00339234 /* AppDelegate.swift */; };
 		2E73FA5A1D30CB6F00339234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E73FA591D30CB6F00339234 /* ViewController.swift */; };
 		2E73FA5D1D30CB6F00339234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E73FA5B1D30CB6F00339234 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		2AD1D4F7ACBCF8775D154C4F /* Pods-QRCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeTests/Pods-QRCodeTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E1D536C1D30CE3C0064E81B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2E1D536E1D30D42A0064E81B /* TestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestPlayground.playground; sourceTree = "<group>"; };
+		2E1D536F1D30DA910064E81B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2E73FA541D30CB6F00339234 /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E73FA571D30CB6F00339234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E73FA591D30CB6F00339234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2E73FA5E1D30CB6F00339234 /* Assets.xcassets */,
 				2E73FA601D30CB6F00339234 /* LaunchScreen.storyboard */,
 				2E73FA631D30CB6F00339234 /* Info.plist */,
+				2E1D536F1D30DA910064E81B /* Extensions.swift */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E73FA5A1D30CB6F00339234 /* ViewController.swift in Sources */,
+				2E1D53701D30DA910064E81B /* Extensions.swift in Sources */,
 				2E73FA581D30CB6F00339234 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

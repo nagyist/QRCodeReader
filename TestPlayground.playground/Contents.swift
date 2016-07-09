@@ -2,8 +2,18 @@
 
 import Cocoa
 
+extension NSDateFormatter {
+    convenience init(dateFormat: String) {
+        self.init()
+        self.dateFormat = dateFormat
+    }
+}
 
-var str = "Hello, playground"
-let df = NSDateFormatter(dateFormat: "ddMMyyyy")
-df.dateFromString("20051980")
+extension String {
+    func dateWithFormat(format:String) -> NSDate {
+        return NSDateFormatter(dateFormat: format).dateFromString(self)!
+    }
+}
+
+"20051980".dateWithFormat("ddMMyyyy")
 

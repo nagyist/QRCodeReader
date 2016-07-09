@@ -72,7 +72,7 @@ struct BPayQRCodeData {
         billerCode = result.firstMatch("(?<=1=)\\w*")!
         customerRefNumber = result.firstMatch("(?<=2=)\\w*")!
         amountDue = result.firstMatch("(?<=3=)\\w*")!
-        dueDate = NSDateFormatter(dateFormat: "ddMMyyyy").dateFromString(result.firstMatch("(?<=4=)\\w*")!)!
+        dueDate = result.firstMatch("(?<=4=)\\w*")!.dateWithFormat("ddMMyyyy")
     }
 }
 
